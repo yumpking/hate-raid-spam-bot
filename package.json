@@ -1,0 +1,19 @@
+{
+  "name": "hateraidspambot",
+  "version": "1.0.0",
+  "description": "JS Twitch bot that detects similar messages and bans users posting similar messages on command. Works around bots spamming random characters/words in messages to avoid filters.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yumpking/hate-raid-spam-bot.git"
+  },
+  "author": "GappyV",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "tmi.js": "^1.8.5"
+  }
+}
